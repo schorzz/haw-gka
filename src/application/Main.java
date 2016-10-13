@@ -26,6 +26,7 @@ public class Main extends Application {
 		//neuen Graphen erstellen
 		ListenableGraph g = new ListenableDirectedGraph(DefaultEdge.class);
 		
+		//einen neuen Adapter erstellen
 		m_jgAdapter = new JGraphModelAdapter<>(g);
 		
 		
